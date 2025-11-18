@@ -19,8 +19,9 @@ outputs/
 dist/
 gpt_researcher.egg-info/
 
-#Ignore my local docs
+#Ignore my local docs (except mcp-server/my-docs/)
 my-docs/
+!mcp-server/my-docs/
 
 #Ignore pycache
 **/__pycache__/
